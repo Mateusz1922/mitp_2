@@ -17,6 +17,7 @@ int main() {
 	cin>>in;
 
 	// The following code implements an if-else statement
+
 	if (in>4) {
 		out=1;
 	}else {
@@ -31,7 +32,7 @@ int main() {
 
     // Reimplement the above code as a ternary operator
     // Your code here ...
-
+	out = ((in > 4) ? 1 : -1);
     // Check results
 	cout << "Out2: "<< out << endl;
 	return 0;

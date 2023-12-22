@@ -19,10 +19,10 @@ int main() {
 	if(age>65)
 	{
 		cout<< "Welcome to the senior section of our service"<<endl;
-	}else if(age>18&&age<65)
+	}else if((age>18)&&(age<65))
 	{
 		cout<< "Welcome to the main section of our service"<<endl;
-	}else if(age<18);
+	}else if(age<18)
 	{
 		cout<< "Sorry, you are too young for our service"<<endl;
 	}

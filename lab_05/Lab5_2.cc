@@ -15,7 +15,7 @@ int main() {
 	int i=0;
 	int j=0;
 	int k=1;
-	int sum=0;
+	int sum=2;
 
     //Do not change code below of this line
 	if (i==1) {
