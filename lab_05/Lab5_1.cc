@@ -1,3 +1,3 @@
 main(){
-  cout<<"Dziś jest poniedziałek"<<endl;
+  cout<<"Dziś jest wtorek"<<endl;
 }
