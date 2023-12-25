@@ -1,0 +1,9 @@
+DO x = 10 to 20 
+	SET y to 30 - x
+	IF this is the last loop iteration
+	    print "last iteration"
+	IF x is greater than y by 3
+		print "x is bigger then y"
+	IF other cases
+		print x
+	print a newline
