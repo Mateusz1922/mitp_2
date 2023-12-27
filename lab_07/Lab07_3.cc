@@ -14,7 +14,7 @@ enum week {
 int main()
 {
     week today;
-    today = "MONDAY";
+    today = MONDAY;
     cout << "Day " << today+1;
     return 0;
 }
