@@ -21,6 +21,10 @@ int main() {
   tab[0].range = 500;
   car au = {30, 1500};
 
-  cout << au.sits;
+  tab[2] = au;
+
+  int size = sizeof(tab);
+
+  cout << au.sits << " " << size;
   return 0;
 }

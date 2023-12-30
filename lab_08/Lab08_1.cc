@@ -9,17 +9,27 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  int tab1[] = {1, 2, 3, 5, 8};
-  int tab2[10] = {1, 2, 3, 4, 5, 6, 7, 8};
+int main()
+{
+    int tab1[] = {1, 2, 3, 5, 8};
+    int tab2[10] = {1, 2, 3, 4, 5, 6, 7, 8};
 
-  cout << "Pierwsza tablica:" << endl;
-  for(int i = 0; i < 10; i++){
-      cout << tab1[i] << endl;
-  }
+    cout << "Pierwsza tablica:" << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << tab1[i] << endl;
+    }
 
-  cout << "Druga tablica:" << endl;
-  for(int i = 0; i < 10; i++){
-      cout << tab2[i] << endl;
-  }
+    cout << "Druga tablica:" << endl;
+    for (int i = 0; i < 8; i++)
+    {
+        cout << tab2[i] << endl;
+    }
+    int i = 0;
+    while(1)
+    {
+        cout << "id: " << i << " wartosc: " << tab1[i] << endl;
+        i++;
+    }
+    // wypisało bardzo dużo wartości, potem segmentation fault
 }

@@ -10,10 +10,10 @@
 using namespace std;
 
 int main() {
-  int tab[2] = {3, 7};
+  char tab[2] = {3, 7};
 
-  cout << &tab[0] << endl;
-  cout << &tab[1] << endl;
+  cout << (void*)&tab[0] << endl;
+  cout << (void*)&tab[1] << endl;
 
   return 0;
 }
