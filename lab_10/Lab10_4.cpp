@@ -5,16 +5,16 @@ using namespace std;
 int main() {
         
   long int size = 1000000;
-  int *p = (int *)malloc(size*sizeof(int));
+  int *p = new int[size];
 
   for (int i = 0; i < size; ++i) 
   {
       p[i] = i;
   }
 
-  free(p);
+  delete [] p;
            
-  cout << "ok! ";
+  cout << "ok!\n";
            
   return 0;
 }
